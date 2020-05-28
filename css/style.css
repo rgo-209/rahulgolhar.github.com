@@ -724,11 +724,11 @@ h5.timeline-title {
 
 #portfolio {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 10rem;
 }
 
 #portfolio .portfolio-list {
-  margin-bottom: 50px;
+  margin-bottom: 1rem;
 }
 
 #portfolio .portfolio-list .nav {
@@ -737,11 +737,11 @@ h5.timeline-title {
 }
 
 #portfolio .portfolio-list .nav li {
-  margin: 0 40px 0 0;
+  margin: 0 2rem 0 0;
   float: left;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #999999;
-  line-height: 16px;
+  line-height: 2rem;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
@@ -765,12 +765,12 @@ h5.timeline-title {
 
 #portfolio .portfolio-container {
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   width: 100%;
 }
 
 .portfolio-thumbnail {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   overflow: hidden;
 }
 
