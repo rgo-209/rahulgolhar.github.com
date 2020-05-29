@@ -724,6 +724,7 @@ h5.timeline-title {
 
 #portfolio {
   position: relative;
+  color: #000;
   padding-bottom: 10rem;
 }
 
@@ -740,11 +741,11 @@ h5.timeline-title {
   margin: 0 2rem 0 0;
   float: left;
   font-size: 0.9rem;
-  color: #999999;
+  /* color: #999999; */
   line-height: 2rem;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
-  font-weight: 500;
+  /* font-weight: 500; */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   -moz-transition: all 0.5s ease-in-out 0s;
@@ -755,7 +756,7 @@ h5.timeline-title {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+  /* color: #b8a07e; */
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -764,13 +765,17 @@ h5.timeline-title {
 }
 
 #portfolio .portfolio-container {
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 0;
   width: 100%;
 }
 
+#portfolio .portfolio-container p{
+  color: #000;
+}
+
 .portfolio-thumbnail {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   overflow: hidden;
 }
 
