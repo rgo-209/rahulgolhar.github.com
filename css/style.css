@@ -10,7 +10,7 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
-  background: #ffffff;
+  background: #bef3ef;
   color: #898989;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
@@ -151,8 +151,8 @@ p {
 }
 
 .paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .paddsections {
@@ -297,8 +297,8 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  padding-top: 190px;
+  background: #bef3ef;
+  padding-top: 5rem;
 }
 
 #about .div-img-bg {
@@ -308,23 +308,41 @@ nav ul li a {
 
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
-  height: 400px;
+  box-shadow: 0 0 4rem 0 rgba(0, 0, 0, 0.14);
+  margin-top: -2.5rem;
+  margin-left: 2.5rem;
   object-fit: cover;
 }
 
 #about .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  text-align: left;
+  font-size: 2rem;
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+  color: rgb(2, 2, 2);
+  text-align:justify;
+  font-size: x-large;
 }
 
-#about .about-descr .separator {
-  max-width: 80%;
-  margin-bottom: 0;
-  text-align: left;
+#about .about-descr .separatorTop {
+  max-width: 100%;  
+  margin-left: 3rem;
+  margin-top: 1rem;
+  padding-top: 0rem;
+  color: #000;
+  font-size: small;
+  text-align:justify;
+}
+
+#about .about-descr .separatorBottom {
+  max-width: 100%;  
+  margin-left: 3rem;
+  margin-top: 1rem;
+  padding-top: 0rem;
+  color: #000;
+  font-size: small;
+  text-align:justify;
+  margin-bottom: 10rem;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -843,6 +861,7 @@ h5.timeline-title {
 }
 
 .journal-block .journal-info .journal-txt p {
+  color: #000;
   margin: 0;
   font-size: 14px;
   line-height: 24px;
@@ -864,7 +883,8 @@ h5.timeline-title {
 }
 
 .contact-details li {
-  padding-bottom: 10px;
+  color: #000;
+  padding-bottom: 0rem;
 }
 
 #contact input, #contact textarea {
@@ -911,8 +931,8 @@ h5.timeline-title {
 #footer {
   /* background: #f7f7f7; */
   background:black;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #footer .socials-media {
