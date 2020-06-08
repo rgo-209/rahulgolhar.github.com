@@ -830,6 +830,15 @@ h5.timeline-title {
 
 .journal-block .journal-info img {
   max-width: 100%;
+  
+}
+
+.journal-block .journal-info #carouselExampleFade {
+  background-color: black;
+}
+
+.journal-block .journal-info #carouselExampleFade .carousel-inner {
+  min-height: 21.5rem;
 }
 
 .journal-block .journal-info .journal-txt {
