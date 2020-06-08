@@ -834,7 +834,7 @@ h5.timeline-title {
 }
 
 .journal-block .journal-info #carouselExampleFade {
-  background-color: black;
+  background-color: #000;
 }
 
 .journal-block .journal-info #carouselExampleFade .carousel-inner {
