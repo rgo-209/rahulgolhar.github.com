@@ -966,6 +966,15 @@ h5.timeline-title {
   margin: 0;
 }
 
+.modal-data{
+  margin-top: -1.5rem;;
+  text-align: left;
+}
+.modal-body{
+  margin-bottom: -2rem;
+  text-align: left;
+}
+
 #portfolio .portfolio-list .nav li {
   margin: 0 2rem 0 0;
   float: left;
