@@ -53,7 +53,7 @@
       <div class="container">
 
         <div class="logo">
-          <p>Rahul Golhar</p>
+          <p><a href="index.html">Rahul Golhar</a></p>
           <!-- <a href="index.html"><img src="images/logo.png" alt="logo"></a> -->
         </div>
 
@@ -79,7 +79,7 @@
       <div class="header-content">
         <div>
           <h2><span class="typed"></span></h2>
-          <p>MS in Computer Science student</p>
+          <p>Computer Science Graduate student</p>
           <br>
           <p>at Rochester Institute Of Technology</p>
           <br>
@@ -519,42 +519,7 @@
           </div>
 
           <div class="portfolio-container">
-            <!-- start Flappy bird project -->
-            <div class="col-lg-3 col-md-6 portfolio-thumbnail all algorithms">
-              <a  >
-                <img data-toggle="modal" data-target="#flappyBirdModal" src="images\projects\flappyBirdSnapshot.jpg" alt="img" style="height: 60%; width:60%;">
-              </a>
-              <p data-toggle="modal" data-target="#flappyBirdModal">AI uses Genetic Algorithm to learn Flappy Bird.</p>
-              <!-- Modal -->
-              <div class="modal fade" id="flappyBirdModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle">AI uses Genetic Algorithm to learn Flappy Bird.</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body" style="color: black;">
-                      <a>
-                        <img src="images\projects\flappy.gif" alt="img" style="height: 60%; width:60%;">
-                      </a>
-                      <p>
-                        This project uses genetic algorithm to learn to play the game of flappy bird.
-                        The repository can be found below.
-                        <a href="https://github.com/rgo-209/FlappyBirdNeatAI" target="_blank" style="color: blue;">Here is the gitub link for the project.</a> 
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end Flappy bird project -->
-            
             <!-- start Smart refrigerator project -->
             <div data-toggle="modal" data-target="#smartFridgeModal" class="col-lg-3 col-md-6 portfolio-thumbnail all achievements">
               <a>
@@ -594,7 +559,16 @@
                         here</a>
                         <br>
                         <br>
-                        
+                        <i style="font-size: large; font-weight: bolder;">Working of project: </i>
+                        <br>
+                        The system would first scan the recipes inside the refrigerator using a PiCamera 
+                        attached to a Raspberry Pi and then send the image to the Google Firebase(where 
+                        all data is stored) using a Flask Server. When the user needs recommendation, the
+                        Django server fetched the images, classifies them using Tensorflow and then creates
+                        a list of items. This list is then used to recommend recipes to the user. If the
+                        user wants to see some new recipes that similars users  had, there is an option for that as well.
+                        <br>
+                        <br>
                         This was the "Final Year Project" of my Bachelors degree. It was a sponsored project in collaboration with
                         <i style="font-size: medium; font-weight: bolder;">Persistent Systems Pvt. Ltd., Pune, Maharashta, India.</i>
                         <a href="https://github.com/rgo-209/Intelligent_Refridgerator" target="_blank" style="color: blue;"> 
@@ -659,6 +633,114 @@
             </div>
             <!-- end Smart refrigerator project -->
             
+            <!-- start Smafty project -->
+            <div data-toggle="modal" data-target="#smaftyModal" class="col-lg-3 col-md-6 portfolio-thumbnail all achievements">
+              <a>
+                <div id="carouselExampleFade" class="carousel" data-ride="carousel" data-interval="1600">
+                  <div class="carousel-inner" style="background-color: #cd0065;">
+                    <div class="carousel-item active">
+                      <img  class="d-block w-100" src="images\achievements\Hackathon\finaleCertificate.png" style="min-height:12.85rem;max-width:18rem;" alt="img">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images\achievements\Hackathon\sihPic0.jpg" style="min-height:12.85rem;max-width:18rem;" alt="img">
+                    </div>
+                  </div>
+                </div>
+              <p>SMAFTY - Smart + Safety</p>             
+              <!-- Modal -->
+              <div class="modal fade" id="smaftyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">SMAFTY - Smart + Safety</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" style="color: black;">
+
+                      <div class="modal-data">
+                      <p>
+                        This was a project done for
+                        <i style="font-size: medium; font-weight: bolder;">Smart India Hackathon</i> which was then "The Biggest Hackathon".
+                        Me and my team had reached the Grand Finale of the hackathon as well. 
+                        <br>
+                        <br>
+
+                        <i style="font-size: large; font-weight: bolder;">Idea behind the project: </i>
+                        <br>
+                        
+                        Due to increasing crimes against Women, we came up with the idea of designing and developing a 
+                        <i style="font-size: medium; font-weight: bolder;">Safety device</i> 
+                        to load them with a powerful yet easy, small and handy arsenal to make them feel safe.
+                        The task was to design and develop a which can be easily mounted on our body
+                        and would be easy to access quickly.
+                        The product was typically intended for <i style="font-size: medium; font-weight: bolder;">Women Safety</i> 
+                        but could be used by anyone.
+                        <br>
+                        <br>
+                        <i style="font-size: large; font-weight: bolder;">Working of project: </i>
+                        <br>
+                        The system hardware consisted of a Arduino Mega with GPS, GSM with Sim and Bluetooth capabilities.
+                        In addition to this, there is an Android Application as well. The steps followed by the system are as follows:
+                        <ol>
+                          <li>Setting up the system:
+                            <ul>
+                              <li>Turn the device on and start the Bluetooth, GSM and GPS modules.</li>
+                              <li>Connect the android device and the safety device via Bluetooth.</li>
+                              <li>Store the emergency contact numbers of family and friends into the application.</li>
+                            </ul>
+                          </li>
+                          <br>
+                          <li>What happens in case of emergency when the user presses the Panic button on Device: :
+                            <ul>
+                                <li>The device fetches the current location of the user using GPS module</li>
+                                <li>Send the location to the emergency helpline numbers(like 911 in the US, 100 for police in India)</li>
+                                <li>Send the signal to the android device which then send the location in a text 
+                                  message to the numbers stored while setting up the device.</li>
+                                <li>Send a notification to all the people having the application in a redius of 5km.</li>
+                            </ul>
+                          </li>
+                        </ol>
+                        <br>
+                        
+                        The functionality of sending a notification to users near by was used so that anyone living near by
+                        can reach the spot before waiting for the police to come to the scene and save the victim.
+                        <br>    
+                        <br>                       
+                        Finally, I would like to thank, my great team and awesome mentors like Malay Sir and Devare sir.
+                        <br>    
+                        <br>    
+                                              
+                      <div class="row">
+                        <div class="col-md-4">
+                          <!-- style="margin-top: 2.875rem; margin-bottom: 4.2rem;"  -->
+                          <img class="d-block w-100" src="images\achievements\Hackathon\sihPic1.jpg" alt="img">
+                          <p style="text-align: center;">With Hon. HRD Minister of India, Mr. Prakash Jawdekar(2017) at the event</p>
+                        </div>
+                        <div class="col-md-4">
+                          <img class="d-block w-100" src="images\achievements\Hackathon\finaleCertificate.png" alt="img">
+                          <p style="text-align: center;">Certificate of the event</p>
+                        </div>
+                        <div class="col-md-4">
+                          <img class="d-block w-100" src="images\achievements\Hackathon\sihPic0.jpg" alt="img">
+                          <p style="text-align: center;">With Dr. Abhay Jere, the person who got the idea of SIH to life</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> 
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <!-- end Smafty project -->
+            
             <!-- start A star project -->
             <div data-toggle="modal" data-target="#aStarModal" class="col-lg-3 col-md-6 portfolio-thumbnail all algorithms">
               <a>
@@ -694,7 +776,7 @@
 
                       <div class="modal-data">
                       <p>
-                        <a href="https://github.com/rgo-209/Park_Route_Finder_Using_A_Star" target="_blank" style="color: blue;">Link to gitub repo. for this project.</a> 
+                        <a href="https://github.com/rgo-209/Park_Route_Finder_Using_A_Star" target="_blank" style="color: blue;">Here, it the link to github repo. for this project.</a> 
                         <br>
                         This was a project which focused on implementing A* algorithm from scratch.
                         It was a part of coursework for one of the subjects.
@@ -746,11 +828,11 @@
               <a>
                 <div id="carouselExampleFade" class="carousel" data-ride="carousel" data-interval="1300">
                   <div class="carousel-inner" >
-                    <div class="carousel-item active" style="width:111%;">
-                      <img class="d-block w-100" src="images\projects\langClassifier\decTreeResults.png" alt="img">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="images\projects\langClassifier\decTreeResults.png" style="max-height:12.1rem;max-width:20rem;" alt="img">
                     </div>
-                    <div class="carousel-item" style="width:111%;">
-                      <img class="d-block w-100" src="images\projects\langClassifier\adaBoostResults.png" alt="img">
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images\projects\langClassifier\adaBoostResults.png" style="max-height:12.1rem;max-width:20rem;" alt="img">
                     </div>
                   </div>
                 </div>
@@ -806,6 +888,77 @@
             </div>
             <!-- end lang classifier project -->
             
+            <!-- start Flappy bird project -->
+            <div data-toggle="modal" data-target="#flappyModal" class="col-lg-3 col-md-6 portfolio-thumbnail all algorithms">
+              <a>
+                <div id="carouselExampleFade" class="carousel" data-ride="carousel" data-interval="400" style="min-height: 12rem;">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" style="max-width:8.45rem; margin-left: 3.25rem;">
+                      <img  class="d-block w-100" src="images\projects\flappy\flappy1.png" alt="img">
+                    </div>
+                    <div class="carousel-item" style="max-width:8.45rem; margin-left: 3.25rem;">
+                      <img  class="d-block w-100" src="images\projects\flappy\flappy2.png" alt="img">
+                    </div>
+                  </div>
+                </div>
+              <p>AI Learns to play Flappy Bird using Genetic Algorithm</p>             
+              <!-- Modal -->
+              <div class="modal fade" id="flappyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">AI Learns to play Flappy Bird using Genetic Algorithm</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" style="color: black;">
+
+                      <div class="modal-data">
+                      <p>
+                        <a href="https://github.com/rgo-209/FlappyBirdNeatAI" target="_blank" style="color: blue;">Here, is the link to github repo. for this project.</a> 
+                        <br>
+                        This was a project which focused on implementing NEAT to 
+                        make the AI learn the game of flappy bird.
+                        <br>
+                        <br>
+                        The algorithm first generates 10 bird objects and passes them to a neural net with no hidden layers.
+                        The input takes 3 values, a bias term, the distance between the distance between the top pipe and the bird and the
+                        distance between the the bottom pipe and the bird. Then, it works around with random values of weights
+                        and then check the performance of the birds. The best ones are selected for the next level, and mutated to get
+                        another generation. This is the way the system finds the weights and decides whether to jump or not.
+                        <br>
+                        <br>
+                        Since, the system is very easy, the AI sometimes learns very quickly. However, in some cases,
+                        the system fails to come up with good values and ends up repetitively generating weak generations.
+                        To tackle this, the system terminates after 50 generations. There are 2 types of AI shown below: 
+                      </p>
+                      
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img class="d-block w-100" src="images\projects\flappy\goodFlappy.gif" alt="img">
+                          <p style="text-align: center;">A Good AI</p>
+                        </div>
+                        <div class="col-md-6">
+                          <img class="d-block w-100" src="images\projects\flappy\badFlappy.gif" alt="img">
+                          <p style="text-align: center;">A Bad AI</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> 
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+            <!-- end Flappy bird project -->
+
+
             <!-- start food truck project -->
             <div data-toggle="modal" data-target="#foodTruckModal"  class="col-lg-3 col-md-6 portfolio-thumbnail all MLFromScratch">
               <a>
@@ -1140,7 +1293,7 @@
       <div class="journal-block">
         <div class="row">
           <!-- Hackathon -->
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6"  data-toggle="modal" data-target="#smaftyModal" >
             <div class="journal-info">              
               <div id="carouselExampleFade" class="carousel slide" data-ride="carousel" data-interval="2500">
                 <div class="carousel-inner">
