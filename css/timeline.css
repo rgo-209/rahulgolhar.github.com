@@ -1,39 +1,39 @@
 .timeline {
     position: relative;
 }
-.timeline-title-left{
+.timeline-title{
     text-align:  left;
 }
-.timeline-title-right{
+/* .timeline-title-right{
     text-align:  right;
-}
+} */
   
-h4.timeline-title-left {
+h4.timeline-title {
     /* margin: 0; */
     padding: 0.6rem 0 0 0;
     font-size: 1.2em;
     color:#333;
   }
 
-h5.timeline-title-left {
+h5.timeline-title{
     color: #1b242f;
     font-size: 1em;
     /* font-weight: 600; */
   }
-  
+/*   
 h4.timeline-title-right {
     /* margin: 0; */
-    padding: 0.6rem 0.6rem 0 0;
-    font-size: 1.2em;
-    color:#333;
-}
+    /* padding: 0.6rem 0.6rem 0 0; */
+    /* font-size: 1.2em; */
+    /* color:#333; */
+/* } */
 
-h5.timeline-title-right {
+/* h5.timeline-title-right {
     color: #1b242f;
     font-size: 1em;
-    padding: 0 0.6rem 0 0;
+    padding: 0 0.6rem 0 0; */
     /* font-weight: 600; */
-}
+/* } */
 
   .timeline-body p {
     text-align: left;
@@ -154,6 +154,10 @@ blockquote {
     .timeline::before {
         left: 50px;
    }
+.timeline-title{
+    margin-top: 2rem;
+}
+
     .timeline .timeline-img {
         left: 50px;
    }
